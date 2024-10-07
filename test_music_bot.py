@@ -46,4 +46,4 @@ async def on_ready():
     print(f'We have logged in as {bot.user}')
     await load_cogs()  # Ensure this awaits properly
 
-bot.run("MTI5MTQzMjQ2NjAyODAzNjE0MA.GmfB53.6yl3oNI-RKC0Pqh5DrjpElva-fD_q3GdoaYCso")
+bot.run(TOKEN)
